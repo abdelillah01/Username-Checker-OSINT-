@@ -6,14 +6,6 @@ import aiohttp
 from colorama import Fore, Style
 
 
-PLATFORMS = {
-    "Facebook": "https://www.facebook.com/{}",
-    "GitHub": "https://github.com/{}",
-    "Instagram": "https://www.instagram.com/{}",
-    "Twitter": "https://twitter.com/{}",
-    "Reddit": "https://www.reddit.com/user/{}",
-}
-
 def generate_variations(name):
     base = name.strip()
     no_space = base.replace(" ", "")
