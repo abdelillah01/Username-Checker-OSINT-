@@ -89,13 +89,6 @@ PLATFORMS = {
 }
 ```
 
----
-
-## 📈 Future Improvements
-- Export results to **CSV/JSON**.
-- Add **proxy support** for anonymity.
-- Profile scraping (bio, followers, etc.) when username is found.
-- Web UI version with Flask or FastAPI.
 
 ---
 
@@ -104,7 +97,4 @@ This tool is for **educational and research purposes only**.
 Do not use it for any illegal activity.  
 The author is **not responsible** for any misuse.
 
----
 
-## 📄 License
-This project is licensed under the [MIT License](LICENSE).
