@@ -38,73 +38,73 @@ Supports **username variations** for more thorough investigations.
 ```bash
 git clone https://github.com/yourusername/username-checker-osint.git
 cd username-checker-osint
+```
 
-2️⃣ Install Dependencies
-
+### 2️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-Requirements:
+**Requirements:**
+- Python **3.8+**
+- `aiohttp` for async requests
+- `colorama` for colored terminal output
 
-    Python 3.8+
+---
 
-    aiohttp for async requests
-
-    colorama for colored terminal output
-
-📜 Usage
+## 📜 Usage
 
 Run the script:
-
+```bash
 python main.py
+```
 
-Example session:
-
+**Example session:**
+```
 Enter username to check: hmida
 Do you want to check variations? (y/n): y
+```
 
-Output:
-
+**Output:**
+```
 === Username Check Results ===
 
-Facebook     hmida         FOUND      https://www.facebook.com/johndoe
+Facebook     hmida         FOUND      https://www.facebook.com/hmida
 GitHub       hmida_123     NOT FOUND
-Twitter      hmida         FOUND      https://twitter.com/johndoe
+Twitter      hmida         FOUND      https://twitter.com/hmida
 LinkedIn     hmida         NOT FOUND
 ...
+```
 
-⚙ Configuration
+---
 
-You can modify platforms.py to add/remove platforms or update URL patterns:
+## ⚙ Configuration
 
+You can modify `platforms.py` to add/remove platforms or update URL patterns:
+```python
 PLATFORMS = {
     "Facebook": "https://www.facebook.com/{}",
     "GitHub": "https://github.com/{}",
     ...
 }
-
-
-
-📈 Future Improvements
-
-    Export results to CSV/JSON.
-
-    Add proxy support for anonymity.
-
-    Profile scraping (bio, followers, etc.) when username is found.
-
-    Web UI version with Flask or FastAPI.
-
-⚠️ Disclaimer
-
-This tool is for educational and research purposes only.
-Do not use it for any illegal activity.
-The author is not responsible for any misuse.
-📄 License
-
-This project is licensed under the MIT License.
-
+```
 
 ---
 
-If you want, I can also **add a preview screenshot** of the tool’s output in the README so it looks more professional.  
-Do you want me to create that screenshot example for you?
+## 📈 Future Improvements
+- Export results to **CSV/JSON**.
+- Add **proxy support** for anonymity.
+- Profile scraping (bio, followers, etc.) when username is found.
+- Web UI version with Flask or FastAPI.
+
+---
+
+## ⚠️ Disclaimer
+This tool is for **educational and research purposes only**.  
+Do not use it for any illegal activity.  
+The author is **not responsible** for any misuse.
+
+---
+
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
