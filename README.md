@@ -1,11 +1,11 @@
-# 🔍 Username Checker OSINT Tool
+#  Username Checker OSINT Tool
 
 A fast, asynchronous **OSINT (Open Source Intelligence)** tool to check if a given username exists across multiple platforms.  
 Supports **username variations** for more thorough investigations.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **Multi-platform search**: Checks username availability on major social media platforms.
 - **Username variations**: Optionally generates common variations (e.g., underscores, numbers, "official" tags).
@@ -15,7 +15,7 @@ Supports **username variations** for more thorough investigations.
 
 ---
 
-## 🖥 Supported Platforms
+##  Supported Platforms
 
 - Facebook  
 - GitHub  
@@ -32,7 +32,7 @@ Supports **username variations** for more thorough investigations.
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### 1️⃣ Clone the Repository
 ```bash
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📜 Usage
+##  Usage
 
 Run the script:
 ```bash
