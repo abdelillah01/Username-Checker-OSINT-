@@ -1,5 +1,9 @@
 #  Username Checker OSINT Tool
-
+<p align="center">
+  <img src="screenshot.png" alt="Expense Tracker Screenshot" width="800">
+  <br>
+  
+</p>
 A fast, asynchronous **OSINT (Open Source Intelligence)** tool to check if a given username exists across multiple platforms.  
 Supports **username variations** for more thorough investigations.
 
