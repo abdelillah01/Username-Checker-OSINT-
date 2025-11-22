@@ -38,13 +38,13 @@ Supports **username variations** for more thorough investigations.
 
 ##  Installation
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 ```bash
 git clone https://github.com/yourusername/username-checker-osint.git
 cd username-checker-osint
 ```
 
-### 2️⃣ Install Dependencies
+### 2️ Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -82,7 +82,7 @@ LinkedIn     hmida         NOT FOUND
 
 ---
 
-## ⚙ Configuration
+##  Configuration
 
 You can modify `platforms.py` to add/remove platforms or update URL patterns:
 ```python
